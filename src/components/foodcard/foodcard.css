@@ -1,0 +1,32 @@
+#food-card article {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+#food-card article:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
+}
+
+#food-card article img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+#food-card article h3,
+#food-card article p {
+  margin-left: 14px;
+  margin-top: 12px;
+}
+
+#food-card article span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 6px;
+  margin-right: 12px;
+}

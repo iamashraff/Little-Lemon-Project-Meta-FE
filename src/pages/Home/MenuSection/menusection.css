@@ -1,0 +1,29 @@
+#menu-section {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#online-menu-button {
+  font-size: 16px;
+  padding: 15px 30px;
+  margin-bottom: 13px;
+}
+
+#menu-section-col1-h1 {
+  font-size: 28px;
+}
+
+#menu-list {
+  max-width: 60rem;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+  gap: 20px; /* Gap between each card */
+  margin-top: 20px;
+}

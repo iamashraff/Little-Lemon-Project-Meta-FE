@@ -1,0 +1,38 @@
+#booking-section {
+  max-width: 60rem;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  margin-inline: auto;
+}
+
+#booking-section p {
+  margin-top: 40px;
+}
+
+#booking-section hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-color: #495e57;
+}
+
+#submit-button-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.right-column {
+  flex: 1;
+  margin-left: 10px;
+}

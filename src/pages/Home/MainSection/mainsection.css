@@ -1,0 +1,48 @@
+#main-section {
+  background-color: #495e57;
+}
+
+#container {
+  max-width: 60rem;
+  padding-top: 3px;
+  padding-bottom: 15px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.column-1 {
+  width: 30%;
+}
+.column-2 {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#restaurant-name-h1 {
+  font-size: 40px;
+  color: #c3a510;
+}
+
+#restaurant-name-p {
+  font-size: 25px;
+  margin-top: -30px;
+  color: white;
+}
+
+#restaurant-description {
+  font-size: 18px;
+  width: 30vh;
+  color: white;
+}
+
+#reserve-button {
+  margin-bottom: 20px;
+}
+
+#main-section-image {
+  border-radius: 16px;
+  margin-bottom: -40px;
+}

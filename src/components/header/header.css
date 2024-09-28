@@ -1,0 +1,36 @@
+header {
+  margin: 20px;
+  max-width: 60rem;
+  margin-inline: auto;
+  display: flex;
+}
+
+.column-1 {
+  width: 30%;
+}
+.column-2 {
+  width: 70%;
+  font-weight: bold;
+}
+
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  margin-top: 20px;
+}
+nav ul li {
+  margin-left: 10px;
+}
+nav a {
+  border-radius: 8px;
+  text-decoration: none;
+  color: #495e57;
+  padding: 7px 12px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+nav a:hover {
+  color: #f4ce14;
+  background-color: #495e57;
+  border-radius: 8px;
+}

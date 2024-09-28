@@ -1,0 +1,16 @@
+.button-delivery {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 16px;
+  padding: 10px 10px;
+  cursor: pointer;
+  color: #000000;
+  font-size: 12px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+.button-delivery:hover {
+  background-color: #e2e0e0;
+}

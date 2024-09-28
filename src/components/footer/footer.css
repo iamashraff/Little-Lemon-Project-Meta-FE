@@ -1,0 +1,23 @@
+#footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 60rem;
+  margin-inline: auto;
+}
+
+footer {
+  margin-top: 15px;
+  background-color: #495e57;
+}
+
+footer div {
+  flex: 1;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+footer div p {
+  text-align: right;
+  color: aliceblue;
+}

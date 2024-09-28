@@ -1,0 +1,40 @@
+#booking-header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#booking-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+#booking-header-container {
+  position: relative;
+  z-index: 2;
+  max-width: 60rem;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  margin-inline: auto;
+  color: white;
+}
+
+#booking-header-container h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#booking-header-container p {
+  font-size: 20px;
+}
+
+#booking-header-datetime {
+  margin-bottom: -15px;
+}
